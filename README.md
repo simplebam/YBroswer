@@ -6,7 +6,7 @@ YBrower是基于腾讯X5内核实现的浏览器DEMO
 ### 项目截图
 <a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="40%"/></a><img height="0" width="8px"/><a href="./art/jietu2.jpg"><img src="./art/jietu2.jpg" width="40%"/></a>
 
-App体验链接:[app-release.apk](/app/release/app-release.apk)
+App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v1.0/app-release.apk)
 
 
 ## 前言

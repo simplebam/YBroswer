@@ -4,9 +4,9 @@ YBrower是基于腾讯X5内核实现的浏览器DEMO
 本产品基于[Ericsongyl/S-Browser: Android：S-Browser（S浏览器，S的意义：sensitive-灵敏、灵活，super-超级，simple-简单、简洁），V2.0改用TBS X5的内核，app体积大大减小，只有1.4M左右，用户体验大大提升，页面加载很快；而原来V1.0使用Chromium_WebView内核，基于TintBrowser框架实现的，app有34M左右。 ](https://github.com/Ericsongyl/S-Browser)
 
 ### 项目截图
-<a href="./art/jietu.jpg"><img src="./art/jietu.jpg" width="40%"/></a><img height="0" width="8px"/><a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="40%"/></a>
+<a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="40%"/></a><img height="0" width="8px"/><a href="./art/jietu2.jpg"><img src="./art/jietu2.jpg" width="40%"/></a>
 
-App体验链接:[app-release.apk](./release/app-release.apk)
+App体验链接:[app-release.apk](/release/app-release.apk)
 
 
 ## 前言

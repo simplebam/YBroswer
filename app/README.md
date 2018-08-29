@@ -2,10 +2,7 @@
 YBrower是基于腾讯X5内核实现的浏览器DEMO
 
 ## 关于JS调用Andoird
-这里不涉及这问题，我已经单独做了一个Demo：[]()
-
-
-
+这里不涉及这问题，我已经单独做了一个Demo：[simplebam/JSWidthAndroidNative: JS调用Android（Java）接口 ](https://github.com/simplebam/JSWidthAndroidNative)
 
 
 ## 开发中遇到的问题

@@ -11,7 +11,7 @@ App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases
 
 ### V2.0项目截图
 源码下载地址：[]()            <br/>
-App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v1.0/app-release.apk)
+App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v2.0/app-release.apk)
 
 <a href="./art/jietu22.jpg"><img src="./art/jietu22.jpg" width="50%"/></a>
 

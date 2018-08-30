@@ -10,7 +10,7 @@ App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases
 <a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="50%"/></a><img height="0" width="8px"/><a href="./art/jietu2.jpg"><img src="./art/jietu2.jpg" width="50%"/></a>
 
 ### V2.0项目截图
-源码下载地址：[]()            <br/>
+源码下载地址：[YBroswer-v2.0](https://github.com/simplebam/YBroswer/archive/v2.0.zip)            <br/>
 App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v2.0/app-release.apk)
 
 <a href="./art/jietu22.jpg"><img src="./art/jietu22.jpg" width="50%"/></a>
@@ -31,7 +31,7 @@ App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases
 
 ## 官方工具
 * X5内核检查工具：[[TBS] X5内核加载问题自动检测工具发布啦 - QQ浏览器移动产品论坛 ](http://bbs.mb.qq.com/thread-1944983-1-1.html)
-
+* X5静态打包:[App想要静态集成X5内核该怎么做 - 腾讯浏览服务 ](https://x5.tencent.com/tbs/technical.html#/detail/sdk/1/8a591c85-337e-4c60-a45a-cf0839819f63)
 
 ## X5其他优秀的开源库
 * [X5 浏览器内核调研报告 - 简书 ](https://www.jianshu.com/p/2a14d303308d)

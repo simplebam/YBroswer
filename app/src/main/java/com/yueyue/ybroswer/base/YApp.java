@@ -13,6 +13,7 @@ import com.tencent.smtt.sdk.TbsListener;
  */
 public class YApp extends Application {
     private static final String TAG=YApp.class.getSimpleName();
+    public static boolean mPreinstallStaticTbs=false;
 
     @Override
     public void onCreate() {
@@ -25,14 +26,13 @@ public class YApp extends Application {
             @Override
             public void onViewInitFinished(boolean arg0) {
                 // TODO Auto-generated method stub
-                //x5內核初始化完成的回调，为true表示x5内核加载成功，否则表示x5内核加载失败，会自动切换到系统内核。
-                Log.d(TAG, " onViewInitFinished is " + arg0);
+                Log.i(TAG, " onViewInitFinished is " + arg0);
             }
 
             @Override
             public void onCoreInitFinished() {
                 // TODO Auto-generated method stub
-                Log.d(TAG, " onCoreInitFinished ");
+                Log.i(TAG, " onCoreInitFinished ");
             }
         };
 
@@ -53,8 +53,10 @@ public class YApp extends Application {
             }
         });
 
-        //x5内核初始化接口
-        QbSdk.initX5Environment(getApplicationContext(),  cb);
+        //x5内核初始化接口，调用preInit接口会导致initX5Enrironment中传入的callback无效。不要调用其他无关接口。
+        QbSdk.setDownloadWithoutWifi(true);//允许在非WIFI条件下下载X5内核
+        QbSdk.initX5Environment(getApplicationContext(), cb);
+
     }
 
 }

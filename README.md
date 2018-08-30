@@ -3,10 +3,20 @@ YBrower是基于腾讯X5内核实现的浏览器DEMO
 
 本产品基于[Ericsongyl/S-Browser: Android：S-Browser（S浏览器，S的意义：sensitive-灵敏、灵活，super-超级，simple-简单、简洁），V2.0改用TBS X5的内核，app体积大大减小，只有1.4M左右，用户体验大大提升，页面加载很快；而原来V1.0使用Chromium_WebView内核，基于TintBrowser框架实现的，app有34M左右。 ](https://github.com/Ericsongyl/S-Browser)
 
-### 项目截图
+### V1.0
+源码下载地址：[YBroswer-v1.0](https://github.com/simplebam/YBroswer/archive/v1.0.zip)
+App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v1.0/app-release.apk)
+
 <a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="50%"/></a><img height="0" width="8px"/><a href="./art/jietu2.jpg"><img src="./art/jietu2.jpg" width="50%"/></a>
 
+### V2.0项目截图
+源码下载地址：[]()
 App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases/download/v1.0/app-release.apk)
+
+<a href="./art/jietu1.jpg"><img src="./art/jietu1.jpg" width="50%"/></a><img height="0" width="8px"/><a href="./art/jietu2.jpg"><img src="./art/jietu2.jpg" width="50%"/></a>
+
+
+
 
 
 ## 前言
@@ -23,7 +33,11 @@ App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases
 * X5内核检查工具：[[TBS] X5内核加载问题自动检测工具发布啦 - QQ浏览器移动产品论坛 ](http://bbs.mb.qq.com/thread-1944983-1-1.html)
 
 
-## 参考的开源库
+## X5其他优秀的开源库
 * [X5 浏览器内核调研报告 - 简书 ](https://www.jianshu.com/p/2a14d303308d)
   * [baishixian/X5WebEngineDemo: X5 webview demo ](https://github.com/baishixian/X5WebEngineDemo)
 * [Ericsongyl/S-Browser: Android：S-Browser（S浏览器，S的意义：sensitive-灵敏、灵活，super-超级，simple-简单、简洁），V2.0改用TBS X5的内核，app体积大大减小，只有1.4M左右，用户体验大大提升，页面加载很快；而原来V1.0使用Chromium_WebView内核，基于TintBrowser框架实现的，app有34M左右。 ](https://github.com/Ericsongyl/S-Browser)
+* [Android-X5WebView（Cookie管理、进度监听、适配8.1系统等策略） - 简书 ](https://www.jianshu.com/p/88084a66c256) ,
+  这个库特别优秀
+  * [zuowutan/ShareX5WebViewDemo: Android-X5WebView基本封装 ](https://github.com/zuowutan/ShareX5WebViewDemo)
+* [FangWW/lightning-browser-gsy: 借鉴闪电浏览器+腾讯x5内核 包裹出web-app ](https://github.com/FangWW/lightning-browser-gsy)

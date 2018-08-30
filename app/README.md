@@ -5,6 +5,26 @@ YBrower是基于腾讯X5内核实现的浏览器DEMO
 这里不涉及这问题，我已经单独做了一个Demo：[simplebam/JSWidthAndroidNative: JS调用Android（Java）接口 ](https://github.com/simplebam/JSWidthAndroidNative)
 
 
+
+## X5调用内核的方法
+```
+没有X5内核 setTbsListener  onInstallFinish: 600
+下载X5内核 setTbsListener   onInstallFinish: 600 onDownloadProgress:1 -> 99 onDownloadFinish:100 -> onInstallFinish: 200 需要杀死进程再进入（完全退出应用）
+有X5内核(完整的)  setTbsListener   onInstallFinish: 610 （正常情况）
+正在下载X5内核就退出应用 setTbsListener ->  onInstallFinish: 610 -> onDownloadProgress: 接着之前的进度
+下载完成X5内核之后，就加载网页，还是不能调用X5内核加载网页，需要完全退出
+
+正在下载内核的时候，只要应用还没被杀死，就会一直下
+
+
+首次安装应用：
+1、x5VwebView没有loadUrl时候  QbSdk.PreInitCallback :onCoreInitFinished  -> onViewInitFinished is false
+2、使用x5WebView加载loadUrl    onInstallFinish: 610 -> onDownloadProgress 一直到99 -> onDownloadFinish: 100 -> onInstallFinish: 200
+3、下载X5内核完成的话，没有退出应用直接调用  onInstallFinish: 610
+4、双杀退出应用再进来（此时下载内核完成）onInstallFinish: 610 -> onCoreInitFinished  -> onViewInitFinished is true
+```
+
+
 ## 开发中遇到的问题
 * 手机安装了微信、QQ正式版、QQ空间还是没有启动X5内核的解决办法：
   * 微信无法加载X5：

@@ -41,3 +41,4 @@ App体验链接:[app-release.apk](https://github.com/simplebam/YBroswer/releases
   这个库特别优秀
   * [zuowutan/ShareX5WebViewDemo: Android-X5WebView基本封装 ](https://github.com/zuowutan/ShareX5WebViewDemo)
 * [FangWW/lightning-browser-gsy: 借鉴闪电浏览器+腾讯x5内核 包裹出web-app ](https://github.com/FangWW/lightning-browser-gsy)
+* [Android Webview H5 秒开方案实现 - 任玉刚](http://mp.weixin.qq.com/s?__biz=MzIwMTAzMTMxMg==&mid=2649493130&idx=1&sn=f8c9fe91de36c736c2dd863140baefa9&chksm=8eec8575b99b0c637652f5d59e31b032992c0547cefb700ad9c6b5a3d47853ae9fab89fc0394&mpshare=1&scene=24&srcid=0910DzaHfsuamrrXjHgUOatS#rd)
